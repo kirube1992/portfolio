@@ -8,16 +8,16 @@ nav {
 .logo {
   margin-right: auto;
   align-items: center;
-  color:#6070ff;
+  color: #6070ff;
   text-align: center;
-  margin-left:120px;
+  margin-left: 120px;
 }
 
 nav li {
   list-style: none;
   display: inline-block;
   padding: 0 10px;
-  color :#344563;
+  color: #344563;
 }
 
 header {
@@ -30,7 +30,7 @@ header p {
   max-width: 50%;
 }
 
- header img {
+header img {
   max-width: 10%;
 }
 
