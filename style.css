@@ -11,6 +11,11 @@ nav {
   color: #6070ff;
   text-align: center;
   margin-left: 120px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 nav li {
@@ -24,6 +29,23 @@ header {
   display: flex;
   flex-direction: column;
   margin-left: 150px;
+}
+
+h1 {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.icon {
+  height: 5%;
+}
+
+p {
+  color: #344563;
 }
 
 header p {
@@ -85,15 +107,17 @@ header h1 {
 }
 
 @media screen and (min-width: 600px) {
-  nav p {
+  nav .menu {
     display: none;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .toglenav {
+  
+.menu {
     display: flex;
     align-items: flex-end;
+    padding: 25px;
   }
 
   nav ul {
