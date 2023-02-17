@@ -30,6 +30,10 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+It's devloped useing html and css
+It's stayled manly using ES6
+
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
