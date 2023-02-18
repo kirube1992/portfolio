@@ -70,6 +70,6 @@ If you like this project...
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-https://github.com/kirube1992/readme-template/blob/master/MIT.md
+This project is [MIT](https://github.com/kirube1992/readme-template/blob/master/MIT.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
