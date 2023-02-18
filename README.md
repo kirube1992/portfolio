@@ -70,6 +70,7 @@ If you like this project...
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
+https://github.com/kirube1992/readme-template/blob/master/MIT.md
 
 https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
 
