@@ -1,3 +1,12 @@
+.section1 {
+  background-image: url(./images/Ellipse\ 11.png), url(./images/Rectangle\ 4.png),url(./images/Rectangle\ 5.png),
+  url(./images/Ellipse\ 5.png),url(./images/Ellipse\ 3.png),url(./images/Ellipse\ 12.png),
+  url(./images/Ellipse\ 13.png),url(./images/Rectangle\ 5.png);
+  background-position: left top,left top, center top, center top, right top,bottom left,
+  bottom left,bottom right,bottom right;
+  background-repeat: no-repeat;
+  background-size: 10%, 10%,10%, 10%,10%, 10%,10%, 10%,10%, 10%;
+}
 
 nav {
   display: flex;
@@ -10,12 +19,21 @@ nav {
   align-items: center;
   color: #6070ff;
   text-align: center;
-  margin-left: 120px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+}
+
+.social {
+  list-style-type: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.social  li {
+  display: inline;
 }
 
 nav li {
@@ -28,7 +46,7 @@ nav li {
 header {
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 h1 {
@@ -56,49 +74,6 @@ header img {
   max-width: 10%;
 }
 
-.topimg {
-  display: flex;
-  justify-content: space-around;
-}
-
-.downimg {
-  display: flex;
-  justify-content: space-around;
-}
-
-.imgorder {
-  display: flex;
-  flex-direction: column;
-  align-items: first baseline;
-  max-width: 100%;
-  height: auto;
-}
-
-.imgorder2 {
-  width: 30%;
-  align-items: center;
-}
-
-.imgorder3 {
-  width: 90%;
-  align-items: flex-end;
-  margin: 20px;
-}
-
-.imgorder1 {
-  width: 50%;
-  align-items: flex-start;
-}
-
-.imgorder4 {
-  width: 40%;
-  align-items: flex-start;
-}
-
-.imgorder5 {
-  align-items: center;
-}
-
 header h1 {
   font-style: normal;
   font-weight: 700;
@@ -113,11 +88,13 @@ header h1 {
 }
 
 @media only screen and (max-width: 600px) {
-  
+
 .menu {
     display: flex;
     align-items: flex-end;
-    padding: 25px;
+    /* padding: 25px; */
+    justify-content: flex-end;
+    width:100%;
   }
 
   nav ul {
@@ -132,3 +109,5 @@ header h1 {
     height: auto;
   }
 }
+
+
